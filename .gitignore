@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+.npm/
+package-lock.json
+
+# React
+/build/
+/.env
+
+# MongoDB
+data/
+database/
