@@ -5,6 +5,7 @@ Integrates data from OpenAlex, PubMed, and ClinicalTrials
 
 import os
 import sys
+from services.openalexService import OpenAlexService
 from dotenv import load_dotenv
 from flask import Flask, jsonify, request
 from flask_cors import CORS
