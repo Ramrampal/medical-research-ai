@@ -80,7 +80,7 @@ class ResearchAnalyzer:
         """
         try:
             trends = [
-                'Increasing number of collaborative studies",
+                'Increasing number of collaborative studies',
                 'Growing focus on personalized medicine',
                 'Expansion of AI applications in diagnostics',
                 'Rising interest in rare disease research'
