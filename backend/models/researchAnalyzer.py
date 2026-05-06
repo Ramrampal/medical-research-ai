@@ -1,5 +1,5 @@
 """
-Research Analyzer - ML model for analyzing medical research data
+Research Analyzer - ML model for analyzing medical research data 
 """
 
 import logging
