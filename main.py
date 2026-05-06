@@ -1,12 +1,12 @@
 """
-Medical Research AI - Main Application Entry Point
+Medical Research AI - Main Application Entry Point  
 Integrates data from OpenAlex, PubMed, and ClinicalTrials
 """
 
 import os
 import sys
 from datetime import datetime
-from services.openalexService import OpenAlexService
+#from services.openalexService import OpenAlexService
 from dotenv import load_dotenv
 from flask import Flask, jsonify, request
 from flask_cors import CORS
