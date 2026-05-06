@@ -4,7 +4,6 @@ Research Analyzer - ML model for analyzing medical research data
 
 import logging
 import numpy as np
-import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from typing import Dict, Any, List
