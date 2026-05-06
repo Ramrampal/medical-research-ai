@@ -5,7 +5,7 @@ Integrates data from OpenAlex, PubMed, and ClinicalTrials
 
 import os
 import sys
-import pandas as pd
+from datetime import datetime
 from services.openalexService import OpenAlexService
 from dotenv import load_dotenv
 from flask import Flask, jsonify, request
@@ -83,7 +83,7 @@ def search_combined():
             'query': query,
             'results': combined_data,
             'analysis': analysis,
-            'timestamp': pd.Timestamp.now().isoformat()
+            'timestamp': datetime.now().isoformat()
         }), 200
         
     except Exception as e:
@@ -103,7 +103,7 @@ def analyze_research():
         
         return jsonify({
             'analysis': analysis_results,
-            'timestamp': pd.Timestamp.now().isoformat()
+            'timestamp': datetime.now().isoformat()
         }), 200
         
     except Exception as e:
@@ -124,7 +124,7 @@ def predict():
         return jsonify({
             'prediction': prediction,
             'confidence': analyzer.get_confidence_score(features),
-            'timestamp': pd.Timestamp.now().isoformat()
+            'timestamp': datetime.now().isoformat()
         }), 200
         
     except Exception as e:
