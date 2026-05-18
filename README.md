@@ -186,12 +186,15 @@ This project is licensed under the **MIT License**.
 
 ### 🌐 Connect With Me
 
-[GitHub](https://github.com/Ramrampal)
+| Platform | Link |
+|----------|------|
+| 🔗 LinkedIn | https://linkedin.com/in/rampal-lodhi-83775130a |
+| 💻 GitHub | https://github.com/Ramrampal |
+| 📱 WhatsApp | https://wa.me/919754506577 |
 
 </div>
 
 ---
-
 
 
 <div align="center">
