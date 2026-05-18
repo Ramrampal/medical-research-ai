@@ -24,7 +24,7 @@ function Login({ setIsLoggedIn }) {
       }
 
       const response = await axios.post(
-        "https://medical-research-ai-production.up.railway.app/api/login",
+        "https://YOUR-RENDER-URL.onrender.com/api/login",
         {
           email,
           password,

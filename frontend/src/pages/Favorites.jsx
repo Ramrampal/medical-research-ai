@@ -18,7 +18,7 @@ function Favorites() {
     try {
 
       const response = await axios.get(
-        "https://medical-research-ai-production.up.railway.app/api/favorites"
+        "https://YOUR-RENDER-URL.onrender.com/api/favorites"
       );
 
       setFavorites(response.data);

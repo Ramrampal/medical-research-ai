@@ -22,7 +22,7 @@ function Search() {
       setLoading(true);
 
       const response = await axios.post(
-        "https://medical-research-ai-production.up.railway.app/api/search/combined",
+        "https://YOUR-RENDER-URL.onrender.com/api/search/combined",
         {
           query,
         }
@@ -51,7 +51,7 @@ function Search() {
     try {
 
       await axios.post(
-        "https://medical-research-ai-production.up.railway.app/api/favorites",
+        "https://YOUR-RENDER-URL.onrender.com/api/favorites",
         {
           title:
             paper.title ||

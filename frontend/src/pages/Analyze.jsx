@@ -21,7 +21,7 @@ function Analyze() {
       setLoading(true);
 
       const response = await axios.post(
-        "https://medical-research-ai-production.up.railway.app/api/analyze",
+        "https://YOUR-RENDER-URL.onrender.com/api/analyze",
         {
           text,
         }

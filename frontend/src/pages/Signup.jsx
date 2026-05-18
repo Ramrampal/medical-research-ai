@@ -27,7 +27,7 @@ function Signup() {
       }
 
       const response = await axios.post(
-        "https://medical-research-ai-production.up.railway.app/api/signup",
+        "https://YOUR-RENDER-URL.onrender.com/api/signup",
         {
           name,
           email,
