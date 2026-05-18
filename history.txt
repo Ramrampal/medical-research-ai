@@ -1,0 +1,5 @@
+cd medical-research-ai
+dir
+ls
+cd medical-research-ai
+doskey /history > history.txt
