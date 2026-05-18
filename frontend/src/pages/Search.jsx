@@ -22,7 +22,7 @@ function Search() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:5001/api/search/combined",
+        "https://medical-research-ai-production.up.railway.app/api/search/combined",
         {
           query,
         }
@@ -51,7 +51,7 @@ function Search() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:5001/api/favorites",
+        "https://medical-research-ai-production.up.railway.app/api/favorites",
         {
           title:
             paper.title ||

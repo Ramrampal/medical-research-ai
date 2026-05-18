@@ -27,7 +27,7 @@ function Signup() {
       }
 
       const response = await axios.post(
-        "http://127.0.0.1:5001/api/signup",
+        "https://medical-research-ai-production.up.railway.app/api/signup",
         {
           name,
           email,

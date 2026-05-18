@@ -26,7 +26,7 @@ function Dashboard() {
     try {
 
       const response = await axios.get(
-        "http://127.0.0.1:5001/api/favorites"
+        "https://medical-research-ai-production.up.railway.app/api/favorites"
       );
 
       setFavoritesCount(
@@ -45,7 +45,7 @@ function Dashboard() {
     try {
 
       const response = await axios.get(
-        "http://127.0.0.1:5001/api/analytics/search"
+        "https://medical-research-ai-production.up.railway.app/api/analytics/search"
       );
 
       setSearchCount(

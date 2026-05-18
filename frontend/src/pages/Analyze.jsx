@@ -21,7 +21,7 @@ function Analyze() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:5001/api/analyze",
+        "https://medical-research-ai-production.up.railway.app/api/analyze",
         {
           text,
         }
