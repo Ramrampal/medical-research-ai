@@ -52,7 +52,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 For questions or feedback, please contact:
-- Ramrampal - [0173cs221104@email@example.com](mailto:0173cs221104@example.com)
+- Rampal Loshi - [0173cs221104@email.com](mailto:0173cs221104@example.com)
 
 ---
 
