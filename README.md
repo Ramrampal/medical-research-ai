@@ -144,7 +144,8 @@ https://github.com/Ramrampal/medical-research-ai
 
 # 📸 Screenshots
 
-> Add your project screenshots here for better presentation.
+> <img width="1912" height="878" alt="image" src="https://github.com/user-attachments/assets/03b5a156-7267-4c19-8a2f-5fe89ee5913c" />
+
 
 Example:
 
@@ -191,14 +192,10 @@ This project is licensed under the **MIT License**.
 
 ---
 
-# ⭐ Show Your Support
 
-If you like this project, please ⭐ star the repository and support the project.
-
----
 
 <div align="center">
 
-### 🚀 Built with Passion for Medical Innovation & AI
+###  Thanks👍
 
 </div>
